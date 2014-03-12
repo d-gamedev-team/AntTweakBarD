@@ -211,3 +211,14 @@ int TwEventKeyboardGLUT(ubyte glutKey, int mouseX, int mouseY);
 int TwEventSpecialGLUT(int glutKey, int mouseX, int mouseY);
 int TwGLUTModifiersFunc(int function() glutGetModifiersFunc);
 int TwEventSFML(const(void)* sfmlEvent, ubyte sfmlMajorVersion, ubyte sfmlMinorVersion);
+
+/**
+    Note: The following expect GLFW2 bindings, not GLFW3.
+    In particular GLFW2 keys do not match GLFW3 keys,
+    you'll have to translate them if you want to use these functions.
+*/
+int TwEventMouseButtonGLFWcdecl(int glfwButton, int glfwAction);
+int TwEventKeyGLFWcdecl(int glfwKey, int glfwAction);
+int TwEventCharGLFWcdecl(int glfwChar, int glfwAction);
+int TwEventMousePosGLFWcdecl(int mouseX, int mouseY);
+int TwEventMouseWheelGLFWcdecl(int wheelPos);

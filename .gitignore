@@ -28,3 +28,4 @@
 *.gui
 *.pdb
 *.zip
+.dub

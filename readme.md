@@ -12,6 +12,12 @@ Currently the D binding targets AntTweakBar **v116**.
 
 Homepage: https://github.com/AndrejMitrovic/AntTweakBarD
 
+## Examples
+
+The original AntTweakBar source package itself has many examples of usage.
+There is a small D example in the `examples` directory, but currently it's not
+buildable via dub since some dependencies are not available as dub packages yet.
+
 ## Links
 
 - AntTweakBar [homepage](http://anttweakbar.sourceforge.net).
