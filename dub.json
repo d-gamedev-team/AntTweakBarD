@@ -8,7 +8,7 @@
     ],
     "license": "Zlib",
     "version": "~master",
-    "homepage": "https://github.com/AndrejMitrovic/AntTweakBarD",
+    "homepage": "https://github.com/d-gamedev-team/AntTweakBarD",
     "copyright": "Copyright (C) 2005-2013 Philippe Decaudin",
     "targetType": "staticLibrary",
     "sourcePaths": [
