@@ -10,7 +10,7 @@ graphic programs to interactively tweak parameters.
 
 Currently the D binding targets AntTweakBar **v116**.
 
-Homepage: https://github.com/AndrejMitrovic/AntTweakBarD
+Homepage: https://github.com/d-gamedev-team/AntTweakBarD
 
 ## Examples
 
