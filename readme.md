@@ -1,6 +1,6 @@
 # AntTweakBarD
 
-![AntTweakBarD](https://raw.github.com/AndrejMitrovic/AntTweakBarD/master/screenshots/tweak.png)
+![AntTweakBarD](https://raw.github.com/d-gamedev-team/AntTweakBarD/master/screenshots/tweak.png)
 
 This is a D2 binding to the [AntTweakBar](http://anttweakbar.sourceforge.net) library.
 
