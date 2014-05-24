@@ -1,0 +1,40 @@
+{
+    "name": "example",
+
+    "description": "example",
+
+    "authors": [
+        "Andrej Mitrovic"
+    ],
+
+    "homepage": "https://github.com/d-gamedev-team/AntTweakBarD",
+
+    "copyright": "Copyright © 2014, Andrej Mitrovic",
+
+    "license": "zlib",
+
+    "targetName" : "example",
+
+    "targetPath" : "../bin",
+
+    "targetType": "executable",
+
+    "sourceFiles": ["example.d"],
+
+    "sourcePaths": [
+        "."
+    ],
+
+    "mainSourceFile": "example.d",
+
+    "libs-posix": [
+        "dl",
+        "glfw",
+    ],
+
+    "dependencies": {
+        "ant-tweak-bar-d": {"path": "../", "version": "~master"},
+        "glad-drey": ">=0.0.2",
+        "glwtf-drey": ">=0.0.1",
+    },
+}

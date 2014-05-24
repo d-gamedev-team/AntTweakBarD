@@ -1,4 +1,4 @@
-module tweakbar;
+module example;
 
 /**
     Simple example of using the tweak bar.

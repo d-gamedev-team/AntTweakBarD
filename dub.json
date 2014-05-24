@@ -1,16 +1,33 @@
 {
     "name": "ant-tweak-bar-d",
+
     "description": "AntTweakBarD is a D2 binding to the AntTweakBar OpenGL/DirectX GUI tweaking library.",
-    "targetName": "AntTweakBarD",
+
     "authors": [
         "Philippe Decaudin",
-        "Andrej Mitrovic",
     ],
-    "license": "Zlib",
+
     "homepage": "https://github.com/d-gamedev-team/AntTweakBarD",
+
     "copyright": "Copyright (C) 2005-2013 Philippe Decaudin",
+
+    "license": "zlib",
+
+    "targetName": "anttweakbard",
+
     "targetType": "staticLibrary",
+
+    "targetPath" : "bin",
+
     "sourcePaths": [
         "src"
+    ],
+
+    "sourceFiles-windows-x86": ["implib/AntTweakBar_x86.lib"],
+
+    "sourceFiles-windows-x86_64": ["implib/AntTweakBar_x64.lib"],
+
+    "subPackages": [
+        "example",
     ],
 }

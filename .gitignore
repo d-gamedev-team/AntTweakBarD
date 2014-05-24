@@ -16,6 +16,7 @@
 *.dat
 *.log
 *.lib
+!implib/*.lib
 *.dll
 *.exe
 *.map
