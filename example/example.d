@@ -187,7 +187,6 @@ enum WindowMode
     windowed,
 }
 
-
 /** Convert GLFW2 keys to GLFW3. This is only a partial implementation. */
 int keyGLFW2ToGLFW3(int key)
 {
