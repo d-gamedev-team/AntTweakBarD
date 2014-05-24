@@ -14,9 +14,14 @@ Homepage: https://github.com/d-gamedev-team/AntTweakBarD
 
 ## Examples
 
+Use [dub] to build and run the examples:
+
+```
+$ cd example
+$ dub
+```
+
 The original AntTweakBar source package itself has many examples of usage.
-There is a small D example in the `examples` directory, but currently it's not
-buildable via dub since some dependencies are not available as dub packages yet.
 
 ## Links
 
@@ -26,4 +31,6 @@ buildable via dub since some dependencies are not available as dub packages yet.
 
 Distributed under the zlib/libpng license.
 See the accompanying file License.txt or visit the online
+
+[dub]: http://code.dlang.org/
 [license page](http://anttweakbar.sourceforge.net/doc/tools:anttweakbar:license).
