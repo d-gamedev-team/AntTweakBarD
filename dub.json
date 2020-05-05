@@ -5,6 +5,7 @@
 
     "authors": [
         "Philippe Decaudin",
+        "Andrej Mitrovic"
     ],
 
     "homepage": "https://github.com/d-gamedev-team/AntTweakBarD",
@@ -23,9 +24,26 @@
         "src"
     ],
 
-    "sourceFiles-windows-x86": ["implib/AntTweakBar_x86.lib"],
+    "libs-posix": [
+        "dl",
+        "glfw"
+    ],
 
-    "sourceFiles-windows-x86_64": ["implib/AntTweakBar_x64.lib"],
+    "libs-linux": [
+        "GL",
+        "Xrandr",
+        "Xext",
+        "Xxf86vm",
+        "Xi",
+        "Xcursor",
+        "Xinerama",
+        "X11"
+    ],
+
+    "libs-windows": ["glfw3dll", "AntTweakBar"],
+
+    "lflags-windows-x86": ["/LIBPATH:$PACKAGE_DIR\\lib\\x86"],
+    "lflags-windows-x86_64": ["/LIBPATH:$PACKAGE_DIR\\lib\\x86-64"],
 
     "subPackages": [
         "example",

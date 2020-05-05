@@ -44,10 +44,11 @@ void main()
     double turn        = 0;                  // Model turn counter
     double speed       = 0.3;                // Model rotation speed
     int wire           = 0;                  // Draw model in wireframe?
-    float bgColor[3]   = [0.1f, 0.2f, 0.4f]; // Background color
-    ubyte cubeColor[4] = [255, 0, 0, 128];   // Model color (32bits RGBA)
+    float[3] bgColor   = [0.1f, 0.2f, 0.4f]; // Background color
+    ubyte[4] cubeColor = [255, 0, 0, 128];   // Model color (32bits RGBA)
 
     Window window = createWindow("Tutorial 01", WindowMode.windowed, width, height);
+    scope (exit) destroy(window);
 
     register_glfw_error_callback(&on_glfw_error);
 

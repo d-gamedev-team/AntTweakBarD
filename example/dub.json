@@ -15,26 +15,15 @@
 
     "targetName" : "example",
 
-    "targetPath" : "../bin",
+    "targetPath" : "../../bin",
 
     "targetType": "executable",
 
     "sourceFiles": ["example.d"],
 
-    "sourcePaths": [
-        "."
-    ],
-
     "mainSourceFile": "example.d",
 
-    "libs-posix": [
-        "dl",
-        "glfw",
-    ],
-
     "dependencies": {
-        "ant-tweak-bar-d": {"path": "../", "version": "~master"},
-        "glad-drey": ">=0.0.2",
-        "glwtf-drey": ">=0.0.1",
+        "ant-tweak-bar-d": {"path": "../", "version": "~master"}
     },
 }
